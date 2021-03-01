@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* bagian logo*/
+
+header img {
+    position: absolute;
+    width: 54.74px;
+    height: 60px;
+    left: 22px;
+    top: -7px;
+}
+
+
+/* bagian nav */
+
+header {
+    height: 45px;
+    background-color: #030303;
+}
+
+header h2 {
+    color: white;
+}
+
+.judul {
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 113px;
+    top: 9px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    display: inline-block;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    padding: 13px 35px;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+header ul li a:hover {
+    color: #f84774;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Bagian nav Utuk mobile menu */
+
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 7px;
+    color: #ffffff;
+}
+
+.mobile-menu:hover {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    background-color: rgba(16, 47, 80, 0.9);
+    transition: 0.3s;
+}
+
+.sidebar ul li a {
+    color: #fff;
+}
+
+.sidebar ul li {
+    padding: 24px;
+}
+
+.sidebar ul li:hover {
+    background-color: #f84774;
+}
+
+#check:checked~.sidebar {
+    left: 0;
+}
+
+
+/* bagian profile */
+
+.profile {
+    background-color: #1d2139;
+    margin: -10px 0;
+    padding: 80px 0;
+}
+
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 30px;
+}
+
+.efek {
+    color: #f84774;
+}
+
+
+/* bagian skills */
+
+.skills {
+    height: 600px;
+    width: auto;
+}
+
+.programing {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.image ul {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.desain-tool {
+    text-align: center;
+    margin-top: -250px;
+}
+
+.image-desain {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+
+/* kontak */
+
+.kontak {
+    height: 400px;
+    width: auto;
+    background-color: #e2e7ec;
+}
+
+.email {
+    text-align: center;
+    padding-top: 150px;
+}
+
+footer {
+    background-color: #1f1d1d;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.copyright {
+    font-size: medium;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* bagian mobile */
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
+}
