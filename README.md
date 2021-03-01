@@ -1,2 +1,2 @@
 # PersonalWeb
-PersonalWeb ( HTML, CSS and JS
+PersonalWeb ( HTML, CSS and JS )
